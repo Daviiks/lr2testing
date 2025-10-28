@@ -4,7 +4,11 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>93ec89c6-a05a-4894-9158-620b51c160b2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
+<<<<<<< HEAD
+    <StartupFile>inspect_function.py</StartupFile>
+=======
     <StartupFile>main.py</StartupFile>
+>>>>>>> 8b2429bcfeb1c49624a1e65ff620461d38b06c1b
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,8 +26,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="gui.py" />
+<<<<<<< HEAD
+    <Compile Include="inspect_function.py" />
     <Compile Include="lr2testing.py" />
     <Compile Include="main.py" />
+    <Compile Include="setup.py" />
+=======
+    <Compile Include="lr2testing.py" />
+    <Compile Include="main.py" />
+>>>>>>> 8b2429bcfeb1c49624a1e65ff620461d38b06c1b
     <Compile Include="test_lr2unittest.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
